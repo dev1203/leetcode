@@ -24,7 +24,7 @@ var middleNode = function(head) {
     
     length = Math.floor(length/2);
     current = head;
-    for (let index = 0; index< length; index ++) {
+    for (let index = 0; index < length; index ++) {
             current = current.next
     }
     return current;
